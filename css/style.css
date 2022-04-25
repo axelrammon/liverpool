@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ecf0f1;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Quicksand';
+  margin: 15px 0 0 0;
+  color: #c8102E;
+}
+
+h4 {
+  text-align: center;
+  font: normal 800 20px 'Quicksand';
+}
+
+p {
+  text-align: center;
+  font: normal 700 16px 'Quicksand';
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  background-color: #000;
+  box-shadow: inset 0 0 1em #000;
+  width: 250px;
+  height: 250px;
+  color: #fff;
+  border-radius: 10px;
+  margin: 5px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-item {
+  width: 100%;
+}
+
+.mundial {
+  background-color: #000;
+  background-image: linear-gradient(90deg, rgba(200,16,46,.9) 0%, rgba(237,41,57,.6) 100%), url('/imgs/mundial.png');
+  background-size: cover;
+}
+
+.champions {
+  background-image: linear-gradient(90deg, rgba(200,16,46,.9) 0%, rgba(237,41,57,.6) 100%), url('/imgs/champions.png');
+  background-size: cover;
+}
+
+.europa {
+  background-image: linear-gradient(90deg, rgba(200,16,46,.9) 0%, rgba(237,41,57,.6) 100%), url('/imgs/europaleague.png');
+  background-size: cover;
+}
+
+.premier_um {
+  background-color: #000;
+  background-image: linear-gradient(90deg, rgba(200,16,46,.9) 0%, rgba(237,41,57,.6) 100%), url('/imgs/premier.png');
+  background-size: cover;
+}
+
+.facup {
+  background-image: linear-gradient(90deg, rgba(200,16,46,.9) 0%, rgba(237,41,57,.6) 100%), url('/imgs/FACup.png');
+  background-size: cover;
+}
+
+.tacaliga {
+  background-image: linear-gradient(90deg, rgba(200,16,46,.9) 0%, rgba(237,41,57,.6) 100%), url('/imgs/tacaliga.png');
+  background-size: cover;
+}
+
+.supertacauefa {
+  background-image: linear-gradient(90deg, rgba(200,16,46,.9) 0%, rgba(237,41,57,.6) 100%), url('/imgs/superUEFA.png');
+  background-size: cover;
+}
+
+.supertacaliga {
+  background-image: linear-gradient(90deg, rgba(200,16,46,.9) 0%, rgba(237,41,57,.6) 100%), url('/imgs/superingle.png');
+  background-size: cover;
+}
+
+.premier_dois {
+  background-image: linear-gradient(90deg, rgba(200,16,46,.9) 0%, rgba(237,41,57,.6) 100%), url('/imgs/2inglesa.png');
+  background-size: cover;
+}
+
+footer {
+  background-color: #c8102E;
+  padding: 20px;
+  text-align: center;
+  font: normal 700 20px 'Quicksand';
+  color: #ecf0f1;
+}
