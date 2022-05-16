@@ -30,14 +30,14 @@ a {
 }
 
 .tabelaDiv {
-  width: 350px;
-  max-width: 350px;
+  width: 400px;
+  max-width: 400px;
   margin: 10px;
 }
 
 table {
   text-align: center;
-  width: 350px;
+  width: 400px;
   border: 3px solid #c8102E;
   height: 200px;
   border-radius: 10px;
