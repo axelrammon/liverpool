@@ -47,10 +47,12 @@ table {
 
 th {
   font: normal 800 20px 'Quicksand';
+  color: #101010;
 }
 
 td {
   font: normal 700 16px 'Quicksand';
+  color: #101010;
 }
 
 footer {
